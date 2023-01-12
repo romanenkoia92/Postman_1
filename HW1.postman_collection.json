@@ -12,15 +12,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/get_method?name=Ivanna&age=30",
-					"protocol": "http",
+					"raw": "{{ip_port}}/get_method?name=Ivanna&age={{age}}",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{ip_port}}"
 					],
-					"port": "5005",
 					"path": [
 						"get_method"
 					],
@@ -31,7 +26,7 @@
 						},
 						{
 							"key": "age",
-							"value": "30"
+							"value": "{{age}}"
 						}
 					]
 				}
@@ -53,7 +48,7 @@
 						},
 						{
 							"key": "age",
-							"value": "30",
+							"value": "{{age}}",
 							"type": "text"
 						},
 						{
@@ -64,15 +59,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_3",
-					"protocol": "http",
+					"raw": "{{ip_port}}/user_info_3",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{ip_port}}"
 					],
-					"port": "5005",
 					"path": [
 						"user_info_3"
 					]
@@ -86,15 +76,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_1?name=Ivanna&age=30&weight=58",
-					"protocol": "http",
+					"raw": "{{ip_port}}/object_info_1?name=Ivanna&age={{age}}&weight=58",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{ip_port}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_1"
 					],
@@ -105,7 +90,7 @@
 						},
 						{
 							"key": "age",
-							"value": "30"
+							"value": "{{age}}"
 						},
 						{
 							"key": "weight",
@@ -122,15 +107,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_2?name=Ivanna&age=30&salary=1000",
-					"protocol": "http",
+					"raw": "{{ip_port}}/object_info_2?name=Ivanna&age={{age}}&salary=1000",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{ip_port}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_2"
 					],
@@ -141,7 +121,7 @@
 						},
 						{
 							"key": "age",
-							"value": "30"
+							"value": "{{age}}"
 						},
 						{
 							"key": "salary",
@@ -158,15 +138,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name=Ivanna&age=30&salary=1000",
-					"protocol": "http",
+					"raw": "{{ip_port}}/object_info_3?name=Ivanna&age={{age}}&salary=1000",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{ip_port}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_3"
 					],
@@ -177,7 +152,7 @@
 						},
 						{
 							"key": "age",
-							"value": "30"
+							"value": "{{age}}"
 						},
 						{
 							"key": "salary",
@@ -194,15 +169,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_4?name=Ivanna&age=30&salary=1000",
-					"protocol": "http",
+					"raw": "{{ip_port}}/object_info_4?name=Ivanna&age={{age}}&salary=1000",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{ip_port}}"
 					],
-					"port": "5005",
 					"path": [
 						"object_info_4"
 					],
@@ -213,7 +183,7 @@
 						},
 						{
 							"key": "age",
-							"value": "30"
+							"value": "{{age}}"
 						},
 						{
 							"key": "salary",
@@ -239,7 +209,7 @@
 						},
 						{
 							"key": "age",
-							"value": "30",
+							"value": "{{age}}",
 							"type": "text"
 						},
 						{
@@ -250,15 +220,10 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2",
-					"protocol": "http",
+					"raw": "{{ip_port}}/user_info_2",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{ip_port}}"
 					],
-					"port": "5005",
 					"path": [
 						"user_info_2"
 					]
